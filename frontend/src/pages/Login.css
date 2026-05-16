@@ -1,0 +1,132 @@
+/** @format */
+
+.login-page {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom right, #07111f, #10233b);
+	padding: 24px;
+}
+
+.login-card {
+	width: 100%;
+	max-width: 460px;
+	background: rgba(255, 255, 255, 0.06);
+	backdrop-filter: blur(16px);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 24px;
+	padding: 40px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+	color: white;
+}
+
+.login-card h1 {
+	font-size: 42px;
+	margin-bottom: 12px;
+	color: white;
+}
+
+.back-link {
+	color: #a5b4c7;
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+
+.eyebrow {
+	color: #2dd4bf;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.role-switch {
+	display: flex;
+	background: rgba(255, 255, 255, 0.06);
+	border-radius: 14px;
+	padding: 4px;
+	margin: 24px 0;
+}
+
+.role-switch button {
+	flex: 1;
+	background: transparent;
+	border: none;
+	color: #94a3b8;
+	padding: 12px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: 0.3s;
+}
+
+.role-switch button.active {
+	background: #14b8a6;
+	color: white;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.form label {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 14px;
+	color: #dbe5f0;
+	font-weight: 600;
+}
+
+.form input {
+	height: 48px;
+	padding: 0 14px;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(255, 255, 255, 0.05);
+	color: white;
+	outline: none;
+}
+
+.form input::placeholder {
+	color: #64748b;
+}
+
+.button.primary {
+	background: #14b8a6;
+	border: none;
+	height: 50px;
+	border-radius: 12px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.button.primary:hover {
+	background: #0f9f90;
+}
+
+.error {
+	background: rgba(239, 68, 68, 0.18);
+	color: #f87171;
+	padding: 12px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.muted {
+	color: #94a3b8;
+	margin-top: 18px;
+	text-align: center;
+}
+
+.muted a {
+	color: #2dd4bf;
+}
